@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "RadicalAIMadnessGameMode.h"
-#include "RadicalAIMadnessCharacter.h"
+#include "RadicalAIMadness/RadicalAIMadnessCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ARadicalAIMadnessGameMode::ARadicalAIMadnessGameMode()

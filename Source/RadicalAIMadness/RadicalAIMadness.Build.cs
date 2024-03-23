@@ -9,6 +9,6 @@ public class RadicalAIMadness : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { "AIModule" });
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "StateTreeModule", "GameplayStateTreeModule", "StructUtils", "GameplayTasks" });
 	}
 }
